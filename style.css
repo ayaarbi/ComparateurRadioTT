@@ -1,0 +1,85 @@
+#mainCard {
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+}
+
+#titleLabel {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+#descLabel {
+    font-size: 16px;
+    color: #64748b;
+}
+
+#optionsFrame {
+    background-color: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+QRadioButton {
+    font-size: 16px;
+    padding: 12px 15px;
+    color: #1e293b;
+    border-radius: 8px;
+}
+
+QRadioButton:hover {
+    background-color: #f1f5f9;
+}
+
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid #94a3b8;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #3b82f6;
+    border: 2px solid #3b82f6;
+}
+
+#azimutRadio::indicator:checked {
+    background-color: #6366f1;
+    border: 2px solid #6366f1;
+}
+
+#coordRadio::indicator:checked {
+    background-color: #10b981;
+    border: 2px solid #10b981;
+}
+
+#actionButton {
+    background-color: #3b82f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 15px;
+    border: none;
+}
+
+#actionButton:hover {
+    background-color: #2563eb;
+}
+
+#progressBar {
+    border-radius: 4px;
+    background-color: #e2e8f0;
+    border: none;
+}
+
+#progressBar::chunk {
+    background-color: #3b82f6;
+    border-radius: 4px;
+}
+
+#statusLabel {
+    font-size: 14px;
+    color: #64748b;
+}
